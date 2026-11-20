@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junaid Ahmed | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Junaid Ahmed</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Switch between dark and light mode">🌙</button>
+      <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="hello">Hi, I'm</p>
+        <h1>Junaid Ahmed</h1>
+        <h2 class="role"><span id="typed"></span><span class="cursor">|</span></h2>
+        <p class="intro">A passionate, self-motivated learner and believer. I enjoy coding, creating videos and animations, and speaking in public.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View my projects</a>
+          <a href="#contact" class="btn btn-outline">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="about-grid">
+          <p class="about-text">
+            I'm a first-semester B.Tech Computer Science student who loves learning new things and turning ideas into real work.
+            I'm building my skills in C++ and Python, and I also enjoy video editing, animation and public speaking.
+            <!-- Add 1-2 more lines about yourself here -->
+          </p>
+          <div class="card">
+            <h3>Personal details</h3>
+            <ul class="details">
+              <li><span>Date of birth</span> 27 November 2007</li>
+              <li><span>Location</span> Your city, State</li>
+              <li><span>Languages</span> English, Hindi, Urdu, German</li>
+              <li><span>Hobbies</span> Gaming, reading, public speaking</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Academic details</h3>
+            <ul class="details">
+              <li><span>Degree</span> B.Tech, Computer Science</li>
+              <li><span>Year</span> 1st semester</li>
+              <li><span>College</span> KIET UNIVERSITY</li>
+              <li><span>CGPA</span> 7</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>B.Tech in Computer Science</h3>
+            <p class="meta">Your college name · Currently in 1st semester</p>
+            <p>CGPA: to be added</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Class 12</h3>
+            <p class="meta">Your school name · Board name · Year</p>
+            <p>Score: 90%</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Class 10</h3>
+            <p class="meta">Your school name · Board name · Year</p>
+            <p>Score: 95%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Technical skills</h3>
+            <div class="tags">
+              <span>C++</span>
+              <span>Python</span>
+              <span>Video editing</span>
+              <span>Animation</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Non-technical skills</h3>
+            <div class="tags">
+              <span>Public speaking</span>
+              <span>Self-motivation</span>
+              <span>Quick learning</span>
+              <span>Multilingual communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="card project">
+            <h3>C++ Game</h3>
+            <p>Old style snake game .</p>
+            <p class="tech">C++</p>
+        
+          </article>
+          <article class="card project">
+            <h3>Python and Sql  </h3>
+            <p>Python and Sql project ; Hotel management system.</p>
+            <p class="tech">Python</p>
+            <a href="#" class="link" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="card project">
+            <h3>Animation Work</h3>
+            <p>Video or animation work.</p>
+            <p class="tech">Video editing, Animation</p>
+            <a href="#" class="link" target="_blank" rel="noopener">Watch the video</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>Have a question or want to work together? Send me a message.</p>
+            <p><strong>Email:</strong> <a href="mailto:junaidstuff3188@gmail.com">junaidstuff3188@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener">Add your link</a></p>
+            <p><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener">Add your link</a></p>
+          </div>
+
+          <form id="contactForm" class="card" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name">
+              <small class="error" id="nameError"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email">
+              <small class="error" id="emailError"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+              <small class="error" id="messageError"></small>
+            </div>
+            <button type="submit" class="btn">Send message</button>
+            <p class="success" id="formSuccess" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Junaid Ahmed</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
